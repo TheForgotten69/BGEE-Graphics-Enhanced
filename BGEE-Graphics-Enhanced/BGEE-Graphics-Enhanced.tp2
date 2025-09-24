@@ -1,0 +1,14 @@
+BACKUP ~BGEE-Graphics-Enhanced/backup~
+AUTHOR ~TheForgotten69~
+VERSION ~v0.1.0~
+
+AUTO_TRA ~BGEE-Graphics-Enhanced/languages/%s~
+LANGUAGE ~English~ ~english~ ~BGEE-Graphics-Enhanced/languages/english/setup.tra~
+
+BEGIN @0  LABEL ~InfinityEngine-Enhancer~
+  REQUIRE_PREDICATE (GAME_IS ~bgee bg2ee eet iwdee~) @1000
+  COPY ~BGEE-Graphics-Enhanced/loader~ ~.~
+
+BEGIN @1 LABEL ~BGEE-Graphics-Enhanced-Tiles~
+  REQUIRE_PREDICATE MOD_IS_INSTALLED ~BGEE-Graphics-Enhanced.tp2~ (ID_OF_LABEL ~BGEE-Graphics-Enhanced.tp2~ ~InfinityEngine-Enhancer~) @1001
+  COPY ~BGEE-Graphics-Enhanced/override~ ~override~
