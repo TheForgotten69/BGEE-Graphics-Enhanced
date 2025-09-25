@@ -11,7 +11,7 @@ This mod provides a definitive x4 upscale for all maps in Baldur's Gate: Enhance
 
 ## Installation
 
-1.Install [EEex](https://github.com/Bubb13/EEex)
+1. Install [EEex](https://github.com/Bubb13/EEex)
 2. Download the latest release
 3. Extract to your Baldur's Gate: Enhanced Edition installation directory
 4. Run the included WeiDU installer
